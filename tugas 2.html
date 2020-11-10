@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="bootsrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootsrap/css/tengah.css">
+<title>Data Mahasiswa</title>
+</head>
+<head>
+  <style type="text/css">
+    body {
+      background-image : url("bg.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+</style>
+
+<body>
+<!--konten-->
+<br>
+<br>
+<div class="container">
+<h3><center>Tabel Data Mahasiswa<center></h3>
+    <table class="table table-dark">
+  <thead class="thead bg-secondary">
+  <tr>
+    <th><center>No</th>
+    <th>Nama</th>
+    <th>NPM</th>
+    <th>Alamat</th>
+  </tr>
+  </thead>
+   <tbody>
+    <tr>
+      <th>1</th>
+      <td>Rochmat Anggara</td>
+      <td>15117386</td>
+      <td>Bogor</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Andi</td>
+      <td>15117583</td>
+      <td>Bandung</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ranggara</td>
+      <td>15117395</td>
+      <td>Jakarta</td>
+    </tr>
+    </tbody>
+ </table>
+ </div>
+<!-- Form -->
+<div class="container">
+        <div class="row">
+        <div class="col-md-4 col-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Tambah Data Mahasiswa</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="post">
+                            <div class="form-group">
+                                <label>Nama</label>
+                                <input type="text" class="form-control" name="nama">
+                            </div>
+                            <div class="form-group">
+                                <label>NPM</label>
+                                <input type="number" class="form-control" name="npm">
+                            </div>
+                            <div class="form-group">
+                                <label>Alamat </label>
+                                <textarea class="form-control" name="alamat"></textarea>
+                            </div>
+                            <button class="btn btn-primary" name="submit">Tambah Data</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>    
+    <!--footer-->      
+    <footer>
+        <span>&copy; Rochmat Anggara_4KA09_15117386_Tugas 2 &copy;</span>
+    </footer>
+                   
+</body>
+</html>
